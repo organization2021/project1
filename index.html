@@ -2,9 +2,9 @@
 <html lang="en" class="hasjs">
 <head>
   <meta charset="utf-8" />
-  <title>Project 1</title>
+  <title>Register Form</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
@@ -13,8 +13,8 @@
     <h3><em>Manage money wisely</em></h3>
   </header>
   <form action="null" method="get" autocomplete="on">
-    <h2>Create <span>FININGS</span> account</h2>
-    <p>Start smart investing, track spending, build strong credit history with FININGS</p>
+    <h2>Create account with <span>FININGS</span></h2>
+    <p>Start smart investing, track spending, build strong credit history NOW</p>
     <div class="label-input">
       <label for="username">Username</label>
       <input id="username" type="text" name="username-field" placeholder="Username">
@@ -24,11 +24,11 @@
       <input id="email" type="email" name="email-field" placeholder="proj_1@iit.edu" pattern="^.+@.+$">
     </div>
     <div class="label-input">
-      <lable for="phone">Phone Number</lable>
-      <input type="tel" name="phone-field" id="phone" placeholder="777-777-7777">
+      <lable for="pass">Password (8 characters minimum)</lable>
+      <input type="password" name="password" id="pass" minlength="8" required>
     </div>
     <div id="input-submit">
-      <input type="submit" value="Create Account">
+      <input type="submit" id="submit" value="Create Account">
     </div>
   </form>
   <footer>
