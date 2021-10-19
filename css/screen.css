@@ -1,15 +1,57 @@
 html {
-   font-family: Georgia, serif;
+   font-family: Avenir, Calibre, sans-serif;
    font-size: 16px;
    background-color: #f6f8f9;
+   line-height: 1.182em; 
+   padding: 1.182em;
+   text-rendering: optimizeLegibility;
 }
 header {
    background-color: #d4e4ef;
    color: steelblue;
    text-align: center;
-   margin: none;
-
+   padding-bottom: 0.25em;
+   padding-top: 0.25em;
 }
+
+h1 {
+   font-size: 2.369em;
+}
+
+h2 {
+   text-align: center;
+   color: #5a5a5a;
+   font-size: 1.333em;
+}
+
+h3{
+   font-size: 1.777em;
+}
+
+p {
+   text-align: center;
+   font-size: 1.333em;
+   line-height: 1.25em;
+}
+
+label {
+  display: block;
+}
+
+form{
+   background-color: white;
+   margin-top: 2em;
+   padding: 0.25em;
+}
+
+input {
+  box-sizing: border-box;
+  width: 95%;
+  padding: 10px;
+  margin: 10px 1.5% 10px 0;
+  }
+
+
 footer{
    background-color: #d4e4ef;
    text-align: center;
