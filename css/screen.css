@@ -144,5 +144,10 @@ footer p {
       width: 30%;
    }
 
+   footer {
+      margin-top: 10%;
+      font-size: 1.1em;
+   }
+
 
 }
