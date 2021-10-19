@@ -35,7 +35,6 @@ h3{
    font-size: 1.333em;
    color: rgb(106,106,106);
    margin-top: 0.5em;
-
 }
 
 p {
@@ -67,6 +66,21 @@ input {
   padding: 10px;
   margin: 10px 0 10px 0;
   }
+
+input[type="checkbox"] + label {
+  display: inline;
+}
+
+input[type="checkbox"] {
+  width: 0.75em;
+  height: 0.75em;
+  }
+
+#text {
+   display: none;
+   font-size: 0.9em;
+   color: #3A6629;
+}  
 
 #input-submit {
   margin-top: 0.75em;
@@ -117,7 +131,6 @@ footer p {
     width: 130px;
     height: 130px;
   }
-
 }
 
 /*Desctop screen*/
@@ -126,7 +139,7 @@ footer p {
       font-size: 16px;
    }
    header{
-      font-size: 1.25em;
+      font-size: 1.1em;
    }
 
    .label-input {
@@ -137,7 +150,7 @@ footer p {
 
    form {
       width: 40%;
-      margin: 4em 40% 0.5em 4em;
+      margin: 2em 40% 0.5em 4em;
    }
 
    #submit {
