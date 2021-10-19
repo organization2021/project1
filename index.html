@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" class="hasjs">
+<html lang="en" class="nojs">
 <head>
   <meta charset="utf-8" />
   <title>Register Form</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
+  <script src="js/script.js" async></script>
 </head>
 <body>
   <header>
@@ -20,7 +21,7 @@
       <label for="username">Username</label>
       <input id="username" type="text" name="username-field" placeholder="Username">
     </div>
-    <div class="label-input">
+    <div class="label-input" id="input-email">
       <label for="email">Email</label>
       <input id="email" type="email" name="email-field" placeholder="proj_1@iit.edu" pattern="^.+@.+$">
     </div>
@@ -28,6 +29,13 @@
       <lable for="pass">Password (8 characters minimum)</lable>
       <input type="password" name="password" id="pass" minlength="8" required>
     </div>
+    <div class="label-input">
+      <input type="checkbox" id="age-verification" name="age-verification" value="18">
+      <label for="age-verification">I am over 18 years old</label>
+    </div>
+    <div class="label-input">
+      <p id="text">Age verified!</p>
+    </div>  
     <div id="input-submit">
       <input type="submit" id="submit" value="Create Free Account">
     </div>
