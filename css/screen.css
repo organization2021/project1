@@ -1,7 +1,7 @@
 html {
    font-family: Avenir, Calibre, sans-serif;
    font-size: 16px;
-   background-color: #f6f8f9;
+   background-color: #d9d9d9;
    line-height: 1.182em; 
    padding: 1.182em;
    text-rendering: optimizeLegibility;
@@ -38,17 +38,21 @@ label {
   display: block;
 }
 
+.label-input{
+   margin-top: 1em;
+}
+
 form{
    background-color: white;
    margin-top: 2em;
-   padding: 0.25em;
+   padding: 0.25em 0.5em 0.5em 0.5em;
 }
 
 input {
   box-sizing: border-box;
-  width: 95%;
+  width: 100%;
   padding: 10px;
-  margin: 10px 1.5% 10px 0;
+  margin: 10px 0 10px 0;
   }
 
 
