@@ -115,7 +115,7 @@ footer p {
 /*Tablet screen*/
 @media screen and (min-width: 768px){
    html {
-     ont-size: 20px;
+     font-size: 20px;
    }
 
   form {
