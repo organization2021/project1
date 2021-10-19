@@ -7,11 +7,16 @@ html {
 }
 header {
    background-color: rgb(245,249,245);
-   text-align: center;
    padding-bottom: 0.25em;
    padding-top: 1em;
-   height: 80px;
-   line-height: 2em;
+   line-height: 2.5em;
+   height: 5.5em;
+}
+
+header img {
+  float: left;
+  width: 120px;
+  height: 120px;
 }
 
 h1 {
@@ -23,12 +28,13 @@ h2 {
    text-align: center;
    color: #5a5a5a;
    font-size: 1.777em;
-   line-height: 1.8em;
+   line-height: 1.5em;
 }
 
 h3{
    font-size: 1.333em;
    color: rgb(106,106,106);
+   margin-top: 0.5em;
 
 }
 
@@ -75,7 +81,7 @@ input {
   width: 60%;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
-  font-size: 1.20em;
+  font-size: 1em;
 }
 
 footer{
@@ -92,3 +98,32 @@ footer p {
    text-align: center;
 }
 
+/*Tablet screen*/
+@media screen and (min-width: 768px){
+   html {
+      font-size: 20px;
+   }
+
+  form {
+   width: 60%;
+   margin-left: 18%;
+  }
+
+  footer{
+   margin-top: 24.5%;
+  }
+  
+  header img {
+  width: 160px;
+  height: 160px;
+  }
+
+}
+
+/*Desctop screen*/
+@media screen and (min-width: 992px){
+   html{
+      font-size: 20px;
+   }
+
+}
