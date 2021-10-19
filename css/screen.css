@@ -101,29 +101,48 @@ footer p {
 /*Tablet screen*/
 @media screen and (min-width: 768px){
    html {
-      font-size: 20px;
+     ont-size: 20px;
    }
 
   form {
-   width: 60%;
-   margin-left: 18%;
+    width: 60%;
+     margin-left: 18%;
   }
 
   footer{
-   margin-top: 24.5%;
+     margin-top: 24.5%;
   }
   
   header img {
-  width: 160px;
-  height: 160px;
+    width: 160px;
+    height: 160px;
   }
 
 }
 
 /*Desctop screen*/
 @media screen and (min-width: 992px){
-   html{
-      font-size: 20px;
+   html {
+      font-size: 16px;
    }
+   header{
+      font-size: 1.25em;
+   }
+
+   .label-input {
+      display: block;
+      width:  60%;
+      margin-left: 20%;
+   }
+
+   form {
+      width: 40%;
+      margin: 4em 40% 0.5em 4em;
+   }
+
+   #submit {
+      width: 30%;
+   }
+
 
 }
