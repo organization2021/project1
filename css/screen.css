@@ -3,14 +3,15 @@ html {
    font-size: 16px;
    background-color: #d9d9d9;
    line-height: 1.182em; 
-   padding: 1.182em;
    text-rendering: optimizeLegibility;
 }
 header {
    background-color: rgb(245,249,245);
    text-align: center;
    padding-bottom: 0.25em;
-   padding-top: 0.25em;
+   padding-top: 1em;
+   height: 80px;
+   line-height: 2em;
 }
 
 h1 {
@@ -21,12 +22,14 @@ h1 {
 h2 {
    text-align: center;
    color: #5a5a5a;
-   font-size: 1.333em;
+   font-size: 1.777em;
+   line-height: 1.8em;
 }
 
 h3{
-   font-size: 1.777em;
+   font-size: 1.333em;
    color: rgb(106,106,106);
+
 }
 
 p {
@@ -45,8 +48,8 @@ label {
 
 form{
    background-color: white;
-   margin-top: 2em;
-   padding: 0.25em 1em 0.5em 1em;
+   margin: 2em 25px 2em 25px;
+   padding: 1em 1em 0.5em 1em;
    border: solid;
    border-width: 0.05em;
    border-color: #5a5a5a;
