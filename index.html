@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" class="hasjs">
 <head>
-  <title>Project 1</title>
   <meta charset="utf-8" />
+  <title>Project 1</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <header>
-  <img src="img/logo.jpg" alt="Logo">
+  <header> 
   <h1>FININGS</h1>
-  <h2>Manage money wisely</h2>
+  <h3><em>Manage money wisely</em></h3>
 </header>
 <form method="get" autocomplete="on" action="#null">
-  <h2>Create FININGS account</h2>
+  <h2>Create <span>FININGS</span> account</h2>
   <p>Start smart investing, track spending, build strong credit history with FININGS</p>
+  <ol>
+    <li id="input-username">
+      <label for="user_name">Userame</label>
+      <input type="text" id="user_name" placeholder="Username" name="name_field">
+    </li>
+    <li id="input-email">
+      <label for="email">Email</label>
+      <input type="email" id="email" pattern="^.+@.+$" placeholder="proj_1@iit.edu" name="email">
+    </li>
+    <li id="input-phone">
+      <label for="phone">Phone Number</label>
+      <input type="phone" id="phone" placeholder="777-777-7777" name="phone_filed">
+    </li>
+    <li id="input-submit">
+      <input type="submit" name="submit" id="submit" value="Subscribe">
+    </li>
+  </ol>  
 </form>
+<footer>
+      <div>
+        <p>ITMD 362</p>
+        <p>Chicago, IL</p>
+        <address>ymoiseyenko@hawk.iit.edu</address>
+      </div>  
+</footer>    
 </body>
 </html>
