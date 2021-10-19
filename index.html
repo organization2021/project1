@@ -4,40 +4,37 @@
   <meta charset="utf-8" />
   <title>Project 1</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+  <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <header> 
-  <h1>FININGS</h1>
-  <h3><em>Manage money wisely</em></h3>
-</header>
-<form method="get" autocomplete="on" action="#null">
-  <h2>Create <span>FININGS</span> account</h2>
-  <p>Start smart investing, track spending, build strong credit history with FININGS</p>
-  <ol>
-    <li id="input-username">
-      <label for="user_name">Userame</label>
-      <input type="text" id="user_name" placeholder="Username" name="name_field">
-    </li>
-    <li id="input-email">
+  <header>
+    <h1>FININGS</h1>
+    <h3><em>Manage money wisely</em></h3>
+  </header>
+  <form action="null" method="get" autocomplete="on">
+    <h1>Create <span>FININGS</span>account</h1>
+    <p>Start smart investing, track spending, build strong credist history with FININGS</p>
+    <div class="label-input">
+      <label for="username">Username</label>
+      <input id="username" type="text" name="username-field" placeholder="Username">
+    </div>
+    <div class="label-input">
       <label for="email">Email</label>
-      <input type="email" id="email" pattern="^.+@.+$" placeholder="proj_1@iit.edu" name="email">
-    </li>
-    <li id="input-phone">
-      <label for="phone">Phone Number</label>
-      <input type="phone" id="phone" placeholder="777-777-7777" name="phone_filed">
-    </li>
-    <li id="input-submit">
-      <input type="submit" name="submit" id="submit" value="Subscribe">
-    </li>
-  </ol>  
-</form>
-<footer>
-      <div>
-        <p>ITMD 362</p>
-        <p>Chicago, IL</p>
-        <address>ymoiseyenko@hawk.iit.edu</address>
-      </div>  
-</footer>    
+      <input id="email" type="email" name="email-field" placeholder="proj_1@iit.edu" pattern="^.+@.+$">
+    </div>
+    <div class="label-input">
+      <lable for="phone">Phone Number</lable>
+      <input type="tel" name="phone-field" id="phone" placeholder="777-777-7777">
+    </div>
+    <div id="input-submit">
+      <input type="submit" value="Create Account">
+    </div>
+  </form>
+  <footer>
+    <p>ITMD 362</p>
+    <p>Chicago, IL</p>
+    <address>ymoiseyenko@hawk.iit.edu</address>
+  </footer>  
 </body>
 </html>
