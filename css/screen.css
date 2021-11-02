@@ -31,19 +31,19 @@ h1 {
 h2 {
    text-align: center;
    color: #5a5a5a;
-   font-size: 1.777em; /* 28.43 px */
+   font-size: 1.777em; /* 28.43px */
    line-height: 1.5em;
 }
 
 h3{
-   font-size: 1.333em; /* 21.328 px */
+   font-size: 1.333em; /* 21.328px */
    color: rgb(106,106,106);
    margin-top: 0.5em;
 }
 
 p {
    text-align: center;
-   font-size: 1.333em; /* 21.328 px */
+   font-size: 1.333em; /* 21.328px */
    line-height: 1.25em;
 }
 
@@ -82,7 +82,7 @@ input[type="checkbox"] {
 
 #text {
    display: none;
-   font-size: 0.9em; /* 14.4 px */
+   font-size: 0.9em; /* 14.4px */
    color: #3A6629;
 }
 
@@ -115,7 +115,7 @@ footer{
 }
 
 footer p {
-  font-size: 1em; /* 16 px */
+  font-size: 1em; /* 16px */
   line-height: 1.5em;
   text-align: center;
 }
@@ -147,7 +147,7 @@ footer p {
     font-size: 16px; /* base font size for a desktop screen */
   }
   header{
-    font-size: 1.125em; /* 18 px used Major Second scale */
+    font-size: 1.125em; /* 18px used Major Second scale */
   }
 
   .label-input {
@@ -167,6 +167,6 @@ footer p {
 
   footer {
     margin-top: 10%;
-    font-size: 1.125em; /* 18 px used Major Second scale */
+    font-size: 1.125em; /* 18px used Major Second scale */
   }
 }
